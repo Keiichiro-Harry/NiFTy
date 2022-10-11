@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "716116140279",
+    "project_id": "nifty-ba510",
+    "storage_bucket": "nifty-ba510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716116140279:android:0a3fed41f3a7f4794ef3f2",
+        "android_client_info": {
+          "package_name": "com.example.nifty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716116140279-q6cfvo4sbp0lmrm75ms6koer61ueqrmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWktZityxvNLdneUOeFC7L8ozD05kja7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716116140279-q6cfvo4sbp0lmrm75ms6koer61ueqrmf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716116140279-k8pmsm7t4p1eqmkb3bcs5mv87264776q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nifty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
