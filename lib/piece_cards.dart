@@ -9,7 +9,7 @@ import 'firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import './account.dart';
-import 'package:bordered_text/bordered_text.dart';
+// import 'package:bordered_text/bordered_text.dart';
 // import './add_book_page.dart';
 // import './add_bookcards_page.dart';
 // import './add_bookcards_page_quick.dart';
@@ -43,10 +43,14 @@ class _PieceCardsState extends State<PieceCards> {
       ),
       body: Column(
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(8),
-            child: Text('ログイン情報：${widget.user.email}'),
-          ),
+          widget.user.email != "guest@guest.com"
+              ? Container(
+                  padding: EdgeInsets.all(8),
+                  child: Text('ログイン情報：${widget.user.email}'),
+                )
+              : Container(
+                  padding: EdgeInsets.all(8),
+                ),
           Expanded(
             // FutureBuilder
             // 非同期処理の結果を元にWidgetを作れる

@@ -50,7 +50,7 @@ class ScreenTransition extends StatefulWidget {
       HomeScreen(user),
       BookmarkScreen(),
       NotificationScreen(),
-      AccountScreen()
+      Account(user)
     ];
   }
 
